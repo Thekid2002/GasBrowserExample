@@ -2,16 +2,19 @@
 
 # Site settings
 title: My Jekyll Site
-description: >- 
+description: >-
   A simple description of your site's purpose.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://yourdomain.com" # the base hostname & protocol for your site
+baseurl: "/publish" # replace with your actual repo name
+url: "https://thekid2002.github.io" # replace with your GitHub Pages URL
 
 # Build settings
 markdown: kramdown
 theme: minima
 
-# Include the _framework directory
+# Include the _framework directory and other necessary files
 include:
   - _framework
+  - css
   - MyBlazorApp.styles.css
+  - index.js
+  - sample-data
