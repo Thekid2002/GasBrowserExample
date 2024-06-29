@@ -11,5 +11,5 @@ app.listen(port, () => {
 
 app.get('*', (req, res) => {
   console.log('GET /' + req.path);
-  res.sendFile(path.join(__dirname.split('\\publish')[0], req.path));
+  res.sendFile(path.join(__dirname, req.path));
 });
